@@ -1,3 +1,5 @@
+// ignore_for_file: unused_field
+
 import 'package:another_xlider/models/handler.dart';
 import 'package:another_xlider/models/handler_animation.dart';
 import 'package:another_xlider/models/hatch_mark.dart';
