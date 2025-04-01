@@ -168,7 +168,7 @@ class FlutterSlider extends StatefulWidget {
     this.containerHeightFactor = 2,
   })  : assert(containerHeightFactor > 0,
             "containerHeightFactor should be greater than 0"),
-        assert(touchSize == null || (touchSize >= 5 && touchSize <= 50)),
+        assert(touchSize == null || (touchSize >= 0 && touchSize <= 50)),
         assert((ignoreSteps.isNotEmpty && step.rangeList == null) ||
             (ignoreSteps.isEmpty)),
         assert((step.rangeList != null &&
